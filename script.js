@@ -46,6 +46,21 @@ const quizData = [{
         d: "none of the above",
         correct: "a",
     },
+    {
+        question: "In React, Which is Hook that changes the variable state",
+        a: "UseRef",
+        b: "useEffect",
+        c: "useState",
+        d: "useHistory",
+        correct: "c",
+    },
+    {
+        question: "in Node, How you send the data?",
+        a: "use GET request",
+        b: "use POST request",
+        c: "use PUT request",
+        correct: "b",
+    },           
 ];
 
 const quiz = document.getElementById('quiz')
